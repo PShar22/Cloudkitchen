@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .table-container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            overflow-x: auto;
+        }
+        h2 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 0 auto;
+            font-size: 14px;
+        }
+        th {
+            background-color: #3498db;
+            color: white;
+            padding: 12px;
+            text-align: left;
+            font-weight: 600;
+            border: 1px solid #2980b9;
+        }
+        td {
+            padding: 10px 12px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+        tr:hover {
+            background-color: #e8f4f8;
+        }
+        .numeric {
+            text-align: right;
+            font-family: 'Courier New', monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="table-container">
+        <h2>Table 4: Day of Week Performance Statistics</h2>
+        <table class="dataframe data-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>day_name</th>
+      <th>Order_Count</th>
+      <th>Total_Revenue</th>
+      <th>Avg_Order_Value</th>
+      <th>Avg_Delivery_Time</th>
+      <th>Avg_Rating</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Monday</td>
+      <td>1178</td>
+      <td>17320.38</td>
+      <td>14.70</td>
+      <td>52.26</td>
+      <td>4.52</td>
+    </tr>
+    <tr>
+      <td>Tuesday</td>
+      <td>1063</td>
+      <td>16060.02</td>
+      <td>15.11</td>
+      <td>52.58</td>
+      <td>4.48</td>
+    </tr>
+    <tr>
+      <td>Wednesday</td>
+      <td>1089</td>
+      <td>16020.21</td>
+      <td>14.71</td>
+      <td>52.94</td>
+      <td>4.51</td>
+    </tr>
+    <tr>
+      <td>Thursday</td>
+      <td>1122</td>
+      <td>16379.14</td>
+      <td>14.60</td>
+      <td>52.33</td>
+      <td>4.55</td>
+    </tr>
+    <tr>
+      <td>Friday</td>
+      <td>1049</td>
+      <td>15548.20</td>
+      <td>14.82</td>
+      <td>52.37</td>
+      <td>4.49</td>
+    </tr>
+    <tr>
+      <td>Saturday</td>
+      <td>1407</td>
+      <td>20924.70</td>
+      <td>14.87</td>
+      <td>52.34</td>
+      <td>4.48</td>
+    </tr>
+    <tr>
+      <td>Sunday</td>
+      <td>1399</td>
+      <td>20645.38</td>
+      <td>14.76</td>
+      <td>52.86</td>
+      <td>4.51</td>
+    </tr>
+  </tbody>
+</table>
+    </div>
+</body>
+</html>

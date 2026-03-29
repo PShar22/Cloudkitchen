@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .table-container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            overflow-x: auto;
+        }
+        h2 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 0 auto;
+            font-size: 14px;
+        }
+        th {
+            background-color: #3498db;
+            color: white;
+            padding: 12px;
+            text-align: left;
+            font-weight: 600;
+            border: 1px solid #2980b9;
+        }
+        td {
+            padding: 10px 12px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+        tr:hover {
+            background-color: #e8f4f8;
+        }
+        .numeric {
+            text-align: right;
+            font-family: 'Courier New', monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="table-container">
+        <h2>Table 7: Baseline Model Results</h2>
+        <table class="dataframe data-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Model</th>
+      <th>MAE</th>
+      <th>RMSE</th>
+      <th>MAPE</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Hour-Day Average</td>
+      <td>0.889960</td>
+      <td>1.133783</td>
+      <td>51.460036</td>
+    </tr>
+    <tr>
+      <td>Naive (Last Value)</td>
+      <td>0.899340</td>
+      <td>1.264520</td>
+      <td>50.757897</td>
+    </tr>
+    <tr>
+      <td>Hourly Average</td>
+      <td>0.907321</td>
+      <td>1.153434</td>
+      <td>52.614803</td>
+    </tr>
+    <tr>
+      <td>Moving Average (window=48)</td>
+      <td>1.008388</td>
+      <td>1.262773</td>
+      <td>63.083783</td>
+    </tr>
+    <tr>
+      <td>Moving Average (window=24)</td>
+      <td>1.050330</td>
+      <td>1.277483</td>
+      <td>67.824508</td>
+    </tr>
+    <tr>
+      <td>Seasonal Naive (period=48)</td>
+      <td>1.301980</td>
+      <td>1.520487</td>
+      <td>96.268859</td>
+    </tr>
+  </tbody>
+</table>
+    </div>
+</body>
+</html>

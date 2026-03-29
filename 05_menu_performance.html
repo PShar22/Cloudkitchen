@@ -1,0 +1,230 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .table-container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            overflow-x: auto;
+        }
+        h2 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 0 auto;
+            font-size: 14px;
+        }
+        th {
+            background-color: #3498db;
+            color: white;
+            padding: 12px;
+            text-align: left;
+            font-weight: 600;
+            border: 1px solid #2980b9;
+        }
+        td {
+            padding: 10px 12px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+        tr:hover {
+            background-color: #e8f4f8;
+        }
+        .numeric {
+            text-align: right;
+            font-family: 'Courier New', monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="table-container">
+        <h2>Table 5: Menu Item Performance Analysis</h2>
+        <table class="dataframe data-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>item_id</th>
+      <th>name</th>
+      <th>category</th>
+      <th>price</th>
+      <th>cost</th>
+      <th>prep_time</th>
+      <th>is_veg</th>
+      <th>popularity</th>
+      <th>Estimated_Orders</th>
+      <th>Total_Revenue</th>
+      <th>Total_Cost</th>
+      <th>Profit</th>
+      <th>Profit_Margin_%</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>6</td>
+      <td>Biryani - Chicken</td>
+      <td>Rice Bowls</td>
+      <td>14.99</td>
+      <td>6.0</td>
+      <td>18</td>
+      <td>False</td>
+      <td>0.95</td>
+      <td>2367</td>
+      <td>35481.33</td>
+      <td>14202.0</td>
+      <td>21279.33</td>
+      <td>59.97</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Chettinaad Chicken Rice Bowl</td>
+      <td>Rice Bowls</td>
+      <td>13.99</td>
+      <td>5.5</td>
+      <td>15</td>
+      <td>False</td>
+      <td>0.80</td>
+      <td>1993</td>
+      <td>27882.07</td>
+      <td>10961.5</td>
+      <td>16920.57</td>
+      <td>60.69</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Masala Dosa 2pc</td>
+      <td>Tiffin</td>
+      <td>10.99</td>
+      <td>3.8</td>
+      <td>12</td>
+      <td>True</td>
+      <td>0.90</td>
+      <td>2242</td>
+      <td>24639.58</td>
+      <td>8519.6</td>
+      <td>16119.98</td>
+      <td>65.42</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Biryani - Veg</td>
+      <td>Rice Bowls</td>
+      <td>12.99</td>
+      <td>4.5</td>
+      <td>16</td>
+      <td>True</td>
+      <td>0.75</td>
+      <td>1869</td>
+      <td>24278.31</td>
+      <td>8410.5</td>
+      <td>15867.81</td>
+      <td>65.36</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Sambar Rice</td>
+      <td>Rice Bowls</td>
+      <td>9.99</td>
+      <td>3.5</td>
+      <td>12</td>
+      <td>True</td>
+      <td>0.68</td>
+      <td>1694</td>
+      <td>16923.06</td>
+      <td>5929.0</td>
+      <td>10994.06</td>
+      <td>64.96</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Pongal</td>
+      <td>Tiffin</td>
+      <td>8.99</td>
+      <td>3.0</td>
+      <td>10</td>
+      <td>True</td>
+      <td>0.70</td>
+      <td>1744</td>
+      <td>15678.56</td>
+      <td>5232.0</td>
+      <td>10446.56</td>
+      <td>66.63</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Idli (3 pcs)</td>
+      <td>Tiffin</td>
+      <td>6.99</td>
+      <td>2.5</td>
+      <td>8</td>
+      <td>True</td>
+      <td>0.85</td>
+      <td>2118</td>
+      <td>14804.82</td>
+      <td>5295.0</td>
+      <td>9509.82</td>
+      <td>64.23</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Punugulu</td>
+      <td>Snacks</td>
+      <td>5.99</td>
+      <td>2.0</td>
+      <td>6</td>
+      <td>True</td>
+      <td>0.65</td>
+      <td>1619</td>
+      <td>9697.81</td>
+      <td>3238.0</td>
+      <td>6459.81</td>
+      <td>66.61</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>Mango Lassi</td>
+      <td>Beverages</td>
+      <td>4.99</td>
+      <td>1.5</td>
+      <td>3</td>
+      <td>True</td>
+      <td>0.55</td>
+      <td>1370</td>
+      <td>6836.30</td>
+      <td>2055.0</td>
+      <td>4781.30</td>
+      <td>69.94</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Madras Filter Coffee</td>
+      <td>Beverages</td>
+      <td>4.49</td>
+      <td>1.2</td>
+      <td>3</td>
+      <td>True</td>
+      <td>0.60</td>
+      <td>1495</td>
+      <td>6712.55</td>
+      <td>1794.0</td>
+      <td>4918.55</td>
+      <td>73.27</td>
+    </tr>
+  </tbody>
+</table>
+    </div>
+</body>
+</html>

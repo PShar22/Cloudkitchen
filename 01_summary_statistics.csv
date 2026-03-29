@@ -1,0 +1,16 @@
+Metric,Value
+Total Orders,8307
+Completed Orders,7907
+Cancelled Orders,400
+Cancellation Rate (%),4.82
+Total Revenue ($),"122,898.03"
+Average Order Value ($),14.79
+Average Daily Orders,45.1
+Average Daily Revenue ($),667.92
+Peak Hour,18:00
+Busiest Day,Saturday
+Average Prep Time (min),17.3
+Average Delivery Time (min),29.9
+Average Total Time (min),52.5
+Average Rating (stars),4.51
+Service Level (%),73.0
