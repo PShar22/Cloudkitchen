@@ -1,0 +1,11 @@
+item_id,name,category,price,cost,prep_time,is_veg,popularity
+1,Idli (3 pcs),Tiffin,6.99,2.5,8,True,0.85
+2,Masala Dosa 2pc,Tiffin,10.99,3.8,12,True,0.9
+3,Pongal,Tiffin,8.99,3.0,10,True,0.7
+4,Punugulu,Snacks,5.99,2.0,6,True,0.65
+5,Chettinaad Chicken Rice Bowl,Rice Bowls,13.99,5.5,15,False,0.8
+6,Biryani - Chicken,Rice Bowls,14.99,6.0,18,False,0.95
+7,Biryani - Veg,Rice Bowls,12.99,4.5,16,True,0.75
+8,Madras Filter Coffee,Beverages,4.49,1.2,3,True,0.6
+9,Mango Lassi,Beverages,4.99,1.5,3,True,0.55
+10,Sambar Rice,Rice Bowls,9.99,3.5,12,True,0.68
